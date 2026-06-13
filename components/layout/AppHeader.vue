@@ -7,7 +7,7 @@
           :class="scrolled ? 'bg-[#111]/90 backdrop-blur-xl rounded-3xl border border-white/8 mt-2 px-4' : 'bg-transparent'"
         >
           <NuxtLink to="/" class="flex items-center">
-            <span class="font-[Syne] text-lg font-bold text-white tracking-wide">CLEARVAULT</span>
+            <span class="font-[Syne] text-lg font-bold text-white tracking-wide">XMARKET</span>
           </NuxtLink>
 
           <button
@@ -39,7 +39,7 @@
               </a>
             </div>
             <a
-              href="https://discord.gg/clear"
+              href="https://discord.gg/bnhwFSU75P"
               target="_blank"
               rel="noopener noreferrer"
               class="flex h-9 items-center justify-center px-6 rounded-full bg-accent font-sans text-sm font-semibold text-background transition-colors duration-200 hover:bg-accent/90"
