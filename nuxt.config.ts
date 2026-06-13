@@ -24,23 +24,23 @@ export default defineNuxtConfig({
   app: {
     baseURL: appBaseURL,
     head: {
-      title: 'ClearVault — Digital Services Through Discord',
+      title: 'Xmarket — Digital Services Through Discord',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
           content:
-            'ClearVault is a Discord-based digital storefront for Cheap Game Accounts',
+            'Xmarket is a Discord-based digital marketplace for Cheap Gaming Accounts',
         },
-        { name: 'theme-color', content: '#070c12' },
+        { name: 'theme-color', content: '#120708' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:site_name', content: 'ClearVault' },
-        { property: 'og:title', content: 'ClearVault — Digital Products Through Discord' },
-        { property: 'og:description', content: 'ClearVault is a Discord-based digital storefront for Cheap Game Accounts' },
+        { property: 'og:site_name', content: 'Xmarket' },
+        { property: 'og:title', content: 'Xmarket — Digital Products Through Discord' },
+        { property: 'og:description', content: 'Xmarket is a Discord-based digital marketplace for Cheap Gaming Accounts' },
         { name: 'twitter:card', content: 'summary' },
-        { name: 'twitter:title', content: 'ClearVault — Digital Products Through Discord' },
-        { name: 'twitter:description', content: 'ClearVault is a Discord-based digital storefront for Cheap Game Accounts' },
+        { name: 'twitter:title', content: 'Xmarket — Digital Products Through Discord' },
+        { name: 'twitter:description', content: 'Xmarket is a Discord-based digital marketplace for Cheap Gaming Accounts' },
       ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: publicAsset('favicon.svg') },
