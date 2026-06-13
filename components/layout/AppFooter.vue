@@ -98,3 +98,74 @@
             <li><a href="https://discord.gg/bnhwFSU75P" target="_blank" rel="noopener noreferrer" class="font-sans text-sm text-text-muted hover:text-white transition-colors">Discord Support</a></li>
           </ul>
         </div>
+
+        <div>
+          <h4 class="font-sans text-sm font-semibold text-white mb-5">Legal</h4>
+          <ul class="space-y-3">
+            <li><NuxtLink to="/terms" class="font-sans text-sm text-text-muted hover:text-white transition-colors">Terms of Service</NuxtLink></li>
+            <li><NuxtLink to="/terms" class="font-sans text-sm text-text-muted hover:text-white transition-colors">Refund Policy</NuxtLink></li>
+            <li><NuxtLink to="/terms" class="font-sans text-sm text-text-muted hover:text-white transition-colors">Warranty</NuxtLink></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="mt-14 pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-3">
+        <p class="font-sans text-sm text-text-muted">&copy; {{ new Date().getFullYear() }} Xmarket. All rights reserved.</p>
+        <p class="font-sans text-xs text-text-muted/50">Digital products only. Delivered through Discord after payment review.</p>
+      </div>
+
+      <div class="mt-4 flex justify-center sm:justify-end">
+        <p class="font-sans text-[11px] text-text-muted/60">
+          Website design by <span class="text-accent font-semibold">@decamped</span> on Discord
+        </p>
+      </div>
+    </div>
+
+    <div class="relative w-full overflow-hidden flex items-center justify-center pointer-events-none select-none py-4" aria-hidden="true">
+      <span
+        class="font-[Syne] font-black uppercase tracking-tighter text-white/[0.03] leading-none whitespace-nowrap block"
+        style="font-size: clamp(2.5rem, 14.5vw, 16rem);"
+      >
+        XMARKET
+      </span>
+    </div>
+  </footer>
+</template>
+
+<script setup lang="ts">
+interface WidgetMember {
+  id: string
+  username: string
+  status: 'online' | 'idle' | 'dnd' | 'offline'
+  avatar_url: string
+}
+
+interface WidgetData {
+  id: string
+  name: string
+  instant_invite: string
+  presence_count: number
+  members: WidgetMember[]
+}
+
+const baseURL = useRuntimeConfig().app.baseURL.replace(/\/$/, '')
+const pageHref = (path: string) => `${baseURL}${path}`
+
+const { data: widget } = await useFetch<WidgetData>(
+  'https://discord.com/api/guilds/1324585061223497842/widget.json',
+  {
+    key: 'discord-widget',
+    server: false,
+  }
+)
+
+const statusOrder: Record<string, number> = { online: 0, idle: 1, dnd: 2, offline: 3 }
+
+const avatarStack = computed(() =>
+  [...(widget.value?.members ?? [])]
+    .filter(m => m.status === 'online')
+    .sort((a, b) => (statusOrder[a.status] ?? 3) - (statusOrder[b.status] ?? 3))
+    .slice(0, 8)
+)
+</script>
