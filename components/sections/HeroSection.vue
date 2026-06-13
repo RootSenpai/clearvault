@@ -2,7 +2,7 @@
   <section id="home" class="relative min-h-[90vh] flex items-center overflow-hidden">
 
     <div aria-hidden="true" class="absolute inset-0 grid grid-cols-2 -space-x-52 opacity-[0.12]">
-      <div class="h-56 bg-gradient-to-br from-accent to-[#00ffe7] blur-[106px]" />
+      <div class="h-56 bg-gradient-to-br from-accent to-[#ff6b6b] blur-[106px]" />
       <div class="h-32 bg-gradient-to-r from-accent-secondary to-accent blur-[106px]" />
     </div>
 
@@ -27,21 +27,21 @@
 
         <h1 class="font-[Syne] text-5xl font-bold text-white md:text-6xl xl:text-7xl anim-text-focus-in">
           Your secure marketplace for
-          <span class="gradient-text"> gaming accounts</span>
+          <span class="gradient-text"> gaming accounts.</span>
         </h1>
 
         <p class="mt-8 font-sans text-lg text-text-muted anim-fade-in-bottom" style="animation-delay: 0.6s">
-          Browse, checkout, and manage digital products — all from within the ClearVault Discord server.
+          Browse, checkout, and manage digital products — all from within the Xmarket Discord server.
         </p>
 
         <div class="mt-12 flex flex-wrap justify-center gap-4 anim-fade-in-bottom" style="animation-delay: 0.9s">
           <a
-            href="https://discord.gg/clear"
+            href="https://discord.gg/bnhwFSU75P"
             target="_blank"
             rel="noopener noreferrer"
             class="flex h-11 items-center justify-center rounded-full bg-accent px-8 font-sans text-sm font-semibold text-background transition-colors duration-200 hover:bg-accent/90"
           >
-            Join ClearVault
+            Join Xmarket
           </a>
           <a
             href="#commands"
