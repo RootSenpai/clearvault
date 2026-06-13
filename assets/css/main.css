@@ -8,8 +8,8 @@
   --color-border: #1f1f1f;
   --color-text:       #e5e5e5;
   --color-text-muted: #888888;
-  --color-accent:           #00cdb8;
-  --color-accent-secondary: #00b8a5;
+  --color-accent:           #ff3347;
+  --color-accent-secondary: #b91c1c;
   --color-success: #22c55e;
   --color-warning: #f59e0b;
   --color-danger:  #ff4444;
@@ -48,7 +48,7 @@ body::before {
 ::-webkit-scrollbar-thumb:hover { background: #888; }
 
 .gradient-text {
-  background: linear-gradient(135deg, #00cdb8, #00ffe7);
+  background: linear-gradient(135deg, #ff3347, #ff7a70);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
