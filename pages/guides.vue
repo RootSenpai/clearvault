@@ -2,7 +2,7 @@
   <div>
     <section class="relative pt-20 pb-0 overflow-hidden">
       <div aria-hidden="true" class="absolute inset-0 -z-10 grid grid-cols-2 -space-x-52 opacity-[0.08]">
-        <div class="h-48 bg-gradient-to-br from-accent to-[#00ffe7] blur-[100px]" />
+        <div class="h-48 bg-gradient-to-br from-accent to-[#ff6b6b] blur-[100px]" />
         <div class="h-28 bg-gradient-to-r from-accent-secondary to-accent blur-[100px]" />
       </div>
 
@@ -10,7 +10,7 @@
 
         <div class="text-center max-w-lg mx-auto mb-12">
           <h1 class="font-[Syne] text-4xl md:text-5xl font-extrabold text-white mb-4 leading-[1.1]">How to use the bot</h1>
-          <p class="font-sans text-[15px] text-text-muted leading-relaxed">Step-by-step guides for finding, filtering, and buying digital products through ClearVault's Discord bot.</p>
+          <p class="font-sans text-[15px] text-text-muted leading-relaxed">Step-by-step guides for finding, filtering, and buying digital products through Xmarket's Discord bot.</p>
         </div>
 
         <div class="grid grid-cols-2 sm:grid-cols-5 gap-3 max-w-2xl mx-auto pb-12">
@@ -50,10 +50,10 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Guides — ClearVault',
-  ogTitle: 'ClearVault Guides — How to Use the Bot',
-  description: 'Step-by-step guides for finding, filtering, and buying digital products through ClearVault\'s Discord bot.',
-  ogDescription: 'Step-by-step guides for finding, filtering, and buying digital products through ClearVault\'s Discord bot.',
+  title: 'Guides — Xmarket',
+  ogTitle: 'Xmarket Guides — How to Use the Bot',
+  description: 'Step-by-step guides for finding, filtering, and buying digital products through Xmarket\'s Discord bot.',
+  ogDescription: 'Step-by-step guides for finding, filtering, and buying digital products through Xmarket\'s Discord bot.',
 })
 
 const activeTab = ref('fortnite')

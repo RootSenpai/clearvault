@@ -2,7 +2,7 @@
   <div>
     <section class="relative pt-20 pb-0 overflow-hidden">
       <div aria-hidden="true" class="absolute inset-0 -z-10 grid grid-cols-2 -space-x-52 opacity-[0.08]">
-        <div class="h-48 bg-gradient-to-br from-accent to-[#00ffe7] blur-[100px]" />
+        <div class="h-48 bg-gradient-to-br from-accent to-[#ff6b6b] blur-[100px]" />
         <div class="h-28 bg-gradient-to-r from-accent-secondary to-accent blur-[100px]" />
       </div>
 
@@ -54,8 +54,8 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Securing Your Product — ClearVault',
-  ogTitle: 'ClearVault — Securing Your Product',
+  title: 'Securing Your Product — Xmarket',
+  ogTitle: 'Xmarket — Securing Your Product',
   description: 'Learn how to protect your purchased digital products, monitor for unauthorized changes, and avoid common issues.',
   ogDescription: 'Learn how to protect your purchased digital products, monitor for unauthorized changes, and avoid common issues.',
 })

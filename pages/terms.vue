@@ -2,14 +2,14 @@
   <div>
     <section class="relative pt-20 pb-0 overflow-hidden">
       <div aria-hidden="true" class="absolute inset-0 -z-10 grid grid-cols-2 -space-x-52 opacity-[0.08]">
-        <div class="h-48 bg-gradient-to-br from-accent to-[#00ffe7] blur-[100px]" />
+        <div class="h-48 bg-gradient-to-br from-accent to-[#ff6b6b] blur-[100px]" />
         <div class="h-28 bg-gradient-to-r from-accent-secondary to-accent blur-[100px]" />
       </div>
 
       <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12">
         <div class="text-center max-w-lg mx-auto mb-14">
           <h1 class="font-[Syne] text-4xl md:text-5xl font-extrabold text-white mb-4 leading-[1.1]">Terms of Service</h1>
-          <p class="font-sans text-[15px] text-text-muted leading-relaxed">By purchasing from ClearVault, you agree to these terms, which govern the sale of digital products through our Discord server.</p>
+          <p class="font-sans text-[15px] text-text-muted leading-relaxed">By purchasing from Xmarket, you agree to these terms, which govern the sale of digital products through our Discord server.</p>
           <p class="font-sans text-xs text-text-muted/40 mt-4">Effective from the date of your first purchase.</p>
         </div>
       </div>
@@ -108,7 +108,7 @@
                 </ol>
               </div>
               <a
-                href="https://discord.gg/clear"
+                href="https://discord.gg/bnhwFSU75P"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-accent font-sans text-sm font-semibold text-background transition-colors duration-200 hover:bg-accent/90"
@@ -135,10 +135,10 @@
 
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Terms of Service — ClearVault',
-  ogTitle: 'ClearVault Terms of Service',
-  description: 'By purchasing from ClearVault, you agree to these terms, which govern the sale of digital products through our Discord server.',
-  ogDescription: 'By purchasing from ClearVault, you agree to these terms, which govern the sale of digital products through our Discord server.',
+  title: 'Terms of Service — Xmarket',
+  ogTitle: 'Xmarket Terms of Service',
+  description: 'By purchasing from Xmarket, you agree to these terms, which govern the sale of digital products through our Discord server.',
+  ogDescription: 'By purchasing from Xmarket, you agree to these terms, which govern the sale of digital products through our Discord server.',
 })
 
 const openSections = ref<string[]>(['1'])
@@ -154,14 +154,14 @@ const sections = [
     num: '1',
     title: 'Introduction',
     clauses: [
-      'By purchasing from ClearVault, you agree to these Terms of Service (TOS), which govern the sale of Fortnite, Steam, VPNs, and related digital products.',
+      'By purchasing from Xmarket, you agree to these Terms of Service (TOS), which govern the sale of Fortnite, Steam, VPNs, and related digital products.',
     ],
   },
   {
     num: '2',
     title: 'Product Sales',
     clauses: [
-      '2.1. ClearVault sells digital products sourced from third-party providers. We do not knowingly offer unauthorized or illegitimate products.',
+      '2.1. Xmarket sells digital products sourced from third-party providers. We do not knowingly offer unauthorized or illegitimate products.',
       '2.2. Market Access: Use /fortnite for Fortnite products and /market for others. Commands are private.',
       '2.3. Accurate Information: Ensure you review product details before purchase to confirm suitability and compliance with platform terms.',
     ],
@@ -170,10 +170,10 @@ const sections = [
     num: '3',
     title: 'Warranty Policy',
     clauses: [
-      '3.1. Warranty Duration: ClearVault offers a 24-hour warranty for technical support and product functionality.',
+      '3.1. Warranty Duration: Xmarket offers a 24-hour warranty for technical support and product functionality.',
       '3.2. Scope: Warranty covers non-functional product data. Replacements are provided within the warranty period.',
       '3.3. Exclusions: Warranty is void if details are shared, changes are made after delivery, or cheats are used.',
-      '3.4. Post-Warranty: ClearVault is not responsible for issues arising from platform policy changes or user actions after the warranty period.',
+      '3.4. Post-Warranty: Xmarket is not responsible for issues arising from platform policy changes or user actions after the warranty period.',
     ],
   },
   {
@@ -184,8 +184,8 @@ const sections = [
       '4.2. Eligibility: Refunds are provided if the product does not function as described and must be requested within the warranty period.',
       '4.3. Access Revocation: Refunds for products where access has been revoked by the issuing platform require no modifications to access details and must be requested within 24 hours of the revocation.',
       '4.4. Final Sale: All sales are final unless covered under warranty.',
-      '4.5. Refund Method: Refunds are credited back to your balance at ClearVault. Only rare exceptions will be made for refunds back to card or crypto.',
-      '4.6. Refund Exclusion for Epic Games Issues: In cases where product issues are directly attributable to Epic Games platform malfunctions, no refunds will be issued. Buyers acknowledge that such issues are beyond ClearVault\'s control.',
+      '4.5. Refund Method: Refunds are credited back to your balance at Xmarket. Only rare exceptions will be made for refunds back to card or crypto.',
+      '4.6. Refund Exclusion for Epic Games Issues: In cases where product issues are directly attributable to Epic Games platform malfunctions, no refunds will be issued. Buyers acknowledge that such issues are beyond Xmarket\'s control.',
       '4.7. Evidence Requirement: To be eligible for a refund, the buyer must provide clear video evidence showing the purchase and attempted use of the digital item, as well as the issue encountered. Without this video evidence, refund requests may be rejected.',
       '4.8. Minimum Value Restriction: No refunds will be issued for products valued under $1, regardless of circumstances.',
     ],
@@ -194,16 +194,16 @@ const sections = [
     num: '5',
     title: 'Product Risks',
     clauses: [
-      '5.1. ClearVault does not guarantee product longevity due to potential third-party platform changes.',
+      '5.1. Xmarket does not guarantee product longevity due to potential third-party platform changes.',
       '5.2. Security beyond seven days is not guaranteed.',
-      '5.3. Data Loss and Backups: Due to the nature of this service, ClearVault does not maintain backups of purchased product data. It is the sole responsibility of the buyer to export and store their product data immediately after purchase.',
+      '5.3. Data Loss and Backups: Due to the nature of this service, Xmarket does not maintain backups of purchased product data. It is the sole responsibility of the buyer to export and store their product data immediately after purchase.',
     ],
   },
   {
     num: '6',
     title: 'Prohibited Activities',
     clauses: [
-      '6.1. Misuse: ClearVault products must be used in accordance with the applicable platform or service\'s user guidelines, for which ClearVault assumes no liability.',
+      '6.1. Misuse: Xmarket products must be used in accordance with the applicable platform or service\'s user guidelines, for which Xmarket assumes no liability.',
       '6.2. Tournament Participation: Certain products are not intended for use in competitive or ranked environments. Doing so may lead to suspension by the issuing platform and is not covered under warranty.',
     ],
   },
@@ -211,7 +211,7 @@ const sections = [
     num: '7',
     title: 'Support & Assistance',
     clauses: [
-      '7.1. Help: Visit the Command Help channel for assistance and guides: discord.gg/clear',
+      '7.1. Help: Visit the Command Help channel for assistance and guides: discord.gg/bnhwFSU75P',
       '7.2. Response Times: Support inquiries are addressed within 24 hours, subject to availability.',
     ],
   },
@@ -219,17 +219,17 @@ const sections = [
     num: '8',
     title: 'Limitation of Liability',
     clauses: [
-      '8.1. Warranty Limits: ClearVault\'s liability is limited to the terms of the warranty and refund policy.',
-      '8.2. ClearVault is not responsible for third-party platform changes affecting product functionality.',
-      '8.3. Indemnification: Buyers agree to indemnify and hold ClearVault harmless from claims arising from misuse or unauthorized use of purchased products.',
-      '8.4. Server Downtime: ClearVault is not liable for any financial or data loss incurred if the service or its servers become unavailable.',
+      '8.1. Warranty Limits: Xmarket\'s liability is limited to the terms of the warranty and refund policy.',
+      '8.2. Xmarket is not responsible for third-party platform changes affecting product functionality.',
+      '8.3. Indemnification: Buyers agree to indemnify and hold Xmarket harmless from claims arising from misuse or unauthorized use of purchased products.',
+      '8.4. Server Downtime: Xmarket is not liable for any financial or data loss incurred if the service or its servers become unavailable.',
     ],
   },
   {
     num: '9',
     title: 'Amendments to TOS',
     clauses: [
-      '9.1. Updates: ClearVault may update these Terms of Service at any time.',
+      '9.1. Updates: Xmarket may update these Terms of Service at any time.',
       '9.2. Acceptance: Continued use or purchases imply acceptance of updated terms.',
     ],
   },
@@ -237,16 +237,16 @@ const sections = [
     num: '10',
     title: 'Giveaway Terms',
     clauses: [
-      '10.1. No Warranties: All products distributed via giveaways or free promotions are provided "AS IS." ClearVault offers no warranty or technical support for giveaway items.',
+      '10.1. No Warranties: All products distributed via giveaways or free promotions are provided "AS IS." Xmarket offers no warranty or technical support for giveaway items.',
       '10.2. No Replacements: Giveaway items are not eligible for replacements or credits if the product is non-functional or revoked.',
-      '10.3. Discretion: ClearVault reserves the right to cancel giveaways or disqualify participants at its sole discretion.',
+      '10.3. Discretion: Xmarket reserves the right to cancel giveaways or disqualify participants at its sole discretion.',
     ],
   },
   {
     num: '11',
     title: 'Acceptance of Terms',
     clauses: [
-      'By purchasing from ClearVault, you acknowledge that you have read, understood, and agree to these Terms of Service, including the risks and limitations stated.',
+      'By purchasing from Xmarket, you acknowledge that you have read, understood, and agree to these Terms of Service, including the risks and limitations stated.',
     ],
   },
 ]
@@ -259,7 +259,7 @@ const issueTypes = [
     label: 'Refund Request',
     icon: 'M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5z',
     title: 'Refund Policy (Section 4)',
-    content: 'Refunds are only available within the 24-hour warranty window if your product was pulled, login failed, or was banned on purchase. All refunds are credited back to your ClearVault balance.',
+    content: 'Refunds are only available within the 24-hour warranty window if your product was pulled, login failed, or was banned on purchase. All refunds are credited back to your Xmarket balance.',
     steps: [
       'Run /owned and select your account.',
       'If warranty is still active, press the Refund Button.',
@@ -272,7 +272,7 @@ const issueTypes = [
     label: 'Warranty Question',
     icon: 'M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z',
     title: 'Warranty Policy (Section 3)',
-    content: 'ClearVault offers a 24-hour warranty covering non-functional product data. Warranty is void if you share account details, make changes after delivery, or use cheats. After 24 hours, ClearVault is not liable for platform-side changes.',
+    content: 'Xmarket offers a 24-hour warranty covering non-functional product data. Warranty is void if you share account details, make changes after delivery, or use cheats. After 24 hours, Xmarket is not liable for platform-side changes.',
     steps: [
       'Check /owned immediately after purchase to verify your product works.',
       'If there is an issue within 24 hours, open a support ticket on Discord.',
@@ -307,7 +307,7 @@ const issueTypes = [
     label: 'Giveaway Item',
     icon: 'M21 11.25v8.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5v-8.25M12 4.875A2.625 2.625 0 109.375 7.5H12m0-2.625V7.5m0-2.625A2.625 2.625 0 1114.625 7.5H12m0 0V21m-8.625-9.75h18c.621 0 1.125-.504 1.125-1.125v-1.5c0-.621-.504-1.125-1.125-1.125h-18c-.621 0-1.125.504-1.125 1.125v1.5c0 .621.504 1.125 1.125 1.125z',
     title: 'Giveaway Terms (Section 10)',
-    content: 'All giveaway products are provided "AS IS" with no warranty. They are not eligible for replacements or credits if non-functional or revoked. ClearVault may cancel giveaways or disqualify participants at its discretion.',
+    content: 'All giveaway products are provided "AS IS" with no warranty. They are not eligible for replacements or credits if non-functional or revoked. Xmarket may cancel giveaways or disqualify participants at its discretion.',
     steps: [
       'Giveaway items have no warranty coverage — this is by design.',
       'If you have a question, you can still reach out on Discord but replacements are not guaranteed.',

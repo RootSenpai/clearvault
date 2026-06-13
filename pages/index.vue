@@ -1,9 +1,9 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'ClearVault — Digital Services Through Discord',
-  ogTitle: 'ClearVault — Digital Services Through Discord',
-  description: 'ClearVault is a Discord-based digital storefront for Cheap Game Accounts',
-  ogDescription: 'ClearVault is a Discord-based digital storefront for Cheap Game Accounts',
+  title: 'Xmarket — Digital Services Through Discord',
+  ogTitle: 'Xmarket — Digital Services Through Discord',
+  description: 'Xmarket is a Discord-based digital marketplace for Cheap Gaming Accounts',
+  ogDescription: 'Xmarket is a Discord-based digital marketplace for Cheap Gaming Accounts',
 })
 </script>
 
