@@ -16,7 +16,7 @@
               </div>
               <div>
                 <p class="font-sans text-[10px] font-bold uppercase tracking-widest text-text-muted/60 mb-0.5">Discord Server</p>
-                <h3 class="font-[Syne] text-lg font-bold text-white leading-none">{{ widget?.name ?? 'ClearVault' }}</h3>
+                <h3 class="font-[Syne] text-lg font-bold text-white leading-none">Xmarket</h3>
               </div>
             </div>
 
@@ -26,7 +26,7 @@
                 <span class="font-sans text-sm font-semibold text-emerald-400">{{ widget?.presence_count ?? '—' }} online</span>
               </div>
               <a
-                :href="widget?.instant_invite ?? 'https://discord.gg/clear'"
+                href="https://discord.gg/bnhwFSU75P"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="inline-flex items-center gap-2 h-10 px-5 rounded-full bg-accent font-sans text-sm font-semibold text-background transition-colors duration-200 hover:bg-accent/90 shrink-0"
